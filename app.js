@@ -126,10 +126,9 @@ app.use((error, req, res, next) => {
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-      console.log("server started");
-      //https
-      //.createServer({ key: privateKey, cert: certificate }, app)
-      app.listen(3000);
+      app.listen(3000, () => {
+			console.log("server started");
+	  );
   })
   .catch(err => {
     console.log(err);
