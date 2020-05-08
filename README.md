@@ -13,8 +13,9 @@ Users can place order and payment is handled by stripe
 User can manage thier orders and can generate invoices of thier orders.
 Users can add thier own products and can also edit and delete them.
 
-Password reset is also implemented in this project.
 
+Password reset is also implemented in this project.
+It also send emails using SendGrid API to users when they signup.
 
 
 
