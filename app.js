@@ -128,7 +128,7 @@ mongoose
   .then(result => {
       app.listen(3000, () => {
 			console.log("server started");
-	  );
+	  });
   })
   .catch(err => {
     console.log(err);
